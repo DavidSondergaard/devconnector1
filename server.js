@@ -1,5 +1,6 @@
-const express = require("express");
-const mongoose = require("mongoose");
+const express = require("express"); //main framework
+const mongoose = require("mongoose"); //used to connect and interact with MongoDB
+const bodyParser = require("body-parser"); //take in data with requests and do what we want with them.
 
 const users = require("./routes/api/users");
 const profile = require("./routes/api/profile");
